@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>חידון תושב"ע</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>חידון תושב"ע</h1>
+        <div id="quiz-container">
+            <p id="question"></p>
+            <div id="answer-buttons" class="btn-container"></div>
+            <p id="score">ניקוד: <span id="score-value">0</span></p>
+        </div>
+        <div id="feedback"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<div class="bubble" style="left: 10%; animation-duration: 8s;"></div>
+<div class="bubble" style="left: 30%; animation-duration: 12s;"></div>
+<div class="bubble" style="left: 50%; animation-duration: 10s;"></div>
+<div class="bubble" style="left: 70%; animation-duration: 9s;"></div>
+<div class="bubble" style="left: 90%; animation-duration: 14s;"></div>
+
+<button class="floating-hint" onclick="alert(' רמז: רציתם רמז לא קיבלתם🤪 ')">
+    ❓ קבל רמז
+</button>
+
