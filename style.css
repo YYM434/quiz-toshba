@@ -1,0 +1,70 @@
+/* עיצוב כללי */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #333;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* הצגת ניקוד */
+#score {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* אנימציות לתשובות */
+#feedback {
+    font-size: 50px;
+    font-weight: bold;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.correct {
+    color: green;
+    opacity: 1 !important;
+}
+
+.wrong {
+    color: red;
+    opacity: 1 !important;
+}
